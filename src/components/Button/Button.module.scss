@@ -1,0 +1,21 @@
+.container{
+    width: 140px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid var(--color-f);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-f);
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--color-f);
+        color: var(--color-a);
+        font-weight: bold;
+    }
+}
+

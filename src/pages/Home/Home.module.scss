@@ -1,0 +1,21 @@
+.container{
+    padding-bottom: 30px;
+    
+    .sliderArea{
+        margin-top: 50px;
+    }
+
+    .sliderHeader{
+        margin-bottom: 20px;
+        color: var(--color-d);
+        font-size: 40px;
+    }
+
+    .moviesList{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

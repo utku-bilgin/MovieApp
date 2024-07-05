@@ -1,0 +1,71 @@
+.container{
+
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .genres{
+      color: var(--color-d);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .moviesList{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .pagination{
+        height: 100px;
+        color: var(--color-d);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 0 20px;
+    }
+
+    .pagination ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+      }
+      
+      .pagination li {
+        margin: 0 5px;
+      }
+      
+      .pagination li a {
+        padding: 10px 15px;
+        border: 1px solid var(--color-b);
+        border-radius: 4px;
+        color: var(--color-b);
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .pagination li a:hover {
+        background-color: var(--color-f);
+        color: var(--color-a);
+      }
+      
+      .pagination li.active a {
+        // background-color: #007bff;
+        color: var(--color-f);
+        border-color: var(--color-f);
+      }
+      
+      .break-me {
+        margin: 0 5px;
+      }
+}

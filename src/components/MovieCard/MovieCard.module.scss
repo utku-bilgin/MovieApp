@@ -1,0 +1,22 @@
+.container{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+
+    .poster {
+        width: 200px;
+        transition: transform 0.3s ease; /* Transform geçiş efektini tanımla */
+      }
+    
+      
+
+}
+
+.container:hover {
+    transform: scale(1.1); /* Posterin hover durumunda büyümesini sağla */
+}
