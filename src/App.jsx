@@ -3,7 +3,6 @@ import style from "./App.module.scss";
 import UserRoutes from "./routes/UserRoutes";
 import { MoviesProvider } from "./context/MoviesContext";
 import Header from "./layout/Header/Header";
-// import Footer from "./layout/Footer/Footer";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
             <Route path="user/*" element={<UserRoutes />} />
           </Routes>
         </div>
-        {/* <Footer /> */}
       </MoviesProvider>
     </div>
   );

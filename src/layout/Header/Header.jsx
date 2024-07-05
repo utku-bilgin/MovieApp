@@ -13,8 +13,8 @@ const Header = () => {
           <Link to={`/`}>
             <h1>Home</h1>
           </Link>
-          <Link to={`/category`}>
-            <h1>Category</h1>
+          <Link to={`/movies`}>
+            <h1>Movies</h1>
           </Link>
         </div>
       </div>

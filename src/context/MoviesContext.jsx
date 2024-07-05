@@ -123,10 +123,6 @@ export const MoviesProvider = ({ children }) => {
 
   const getMoviesByMovieName = async (searchTerm, pageNumber) => {
     try {
-      // if (!pageNumber || isNaN(pageNumber)) {
-      //   pageNumber = 1;
-      // }
-
       const options = {
         method: "GET",
         headers: {

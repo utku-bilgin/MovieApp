@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import style from "./Category.module.scss";
+import style from "./Movies.module.scss";
 import { useMoviesContext } from "../../context/MoviesContext";
 import MovieCard from "../../components/MovieCard/MovieCard";
 import ReactPaginate from "react-paginate";
 import Button from "../../components/Button/Button";
 import SearchBar from "../../components/SearchBar/SearchBar";
 
-const Category = () => {
+const Movies = () => {
   const {
     movies,
     getMoviesByPageNumber,
@@ -81,4 +81,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default Movies;

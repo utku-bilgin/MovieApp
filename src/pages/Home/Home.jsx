@@ -20,7 +20,7 @@ const Home = () => {
     autoplaySpeed: 3000,
   };
 
-  const categorySliderSettings = {
+  const moviesSliderSettings = {
     dots: true,
     infinite: true,
     speed: 600,
@@ -69,7 +69,7 @@ const Home = () => {
       </div>
       <div className={style.sliderArea}>
         <h1 className={style.sliderHeader}>Popular Movies</h1>
-        <Slider {...categorySliderSettings}>
+        <Slider {...moviesSliderSettings}>
           {popularMovies ? (
             popularMovies.map((movie) => (
               <MovieCard key={movie.id} movie={movie} />
@@ -81,7 +81,7 @@ const Home = () => {
       </div>
       <div className={style.sliderArea}>
         <h1 className={style.sliderHeader}>Top Rated Movies</h1>
-        <Slider {...categorySliderSettings}>
+        <Slider {...moviesSliderSettings}>
           {topRateMovies ? (
             topRateMovies.map((movie) => (
               <MovieCard key={movie.id} movie={movie} />
@@ -93,7 +93,7 @@ const Home = () => {
       </div>
       <div className={style.sliderArea}>
         <h1 className={style.sliderHeader}>Upcoming Movies</h1>
-        <Slider {...categorySliderSettings}>
+        <Slider {...moviesSliderSettings}>
           {upcomingMovies ? (
             upcomingMovies.map((movie) => (
               <MovieCard key={movie.id} movie={movie} />
