@@ -6,13 +6,6 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
     setSearchTerm(e.target.value);
   };
 
-  const handleSearchSubmit = (e) => {
-    e.preventDefault();
-    if (searchTerm.trim()) {
-      history.push(`/search?query=${searchTerm}`);
-    }
-  };
-
   return (
     <div className={style.container}>
       <input
